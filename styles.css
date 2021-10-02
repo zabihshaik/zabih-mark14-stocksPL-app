@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+:root {
+    --head-font: 'Lato', sans-serif;
+    --body-font: 'Lato', sans-seriff;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: aliceblue;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: var(--primary-color);
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5rem;
+    height: 800px;
+    text-align: center;
+}
+.main {
+   
+    max-width: 400px;
+    display: block;
+    padding: 1.5rem;
+    border-radius: 2rem;
+    margin: 3rem auto 1rem;
+}
+
+h1 {
+    text-align: center;
+    font-family: var(--head-font);
+    font-size: 30px;
+    padding-top: 2.5rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid var(--cream);
+}
+
+.content {
+    max-width: 300px;
+    display: block;
+    margin: auto;
+}
+
+label {
+    display: block;
+    min-width: 70%;
+    font-size: 15px;
+    text-align: left;
+    padding-left: 1.5rem;
+    padding-top: 1.5rem;
+    padding-bottom: 0.4rem;
+}
+
+input {
+    display: block;
+    background-color: var(--sec-back);
+    color: var(--cream);
+    font-size: 17px;
+    font-weight: bold;
+    min-width: 80%;
+    outline: none;
+    padding: 0.7rem 1.7rem;
+    border: none;
+    border-radius: 2rem;
+    margin: auto;
+    box-shadow: inset 5px 5px 5px #333, inset -5px -5px 5px #0a0a0a;
+}
+
+button {
+    color: var(--back);
+    font-weight: bold;
+    padding: 0.5rem 2rem;
+    border: 2px solid var(--cream);
+    border-radius: 2rem;
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    transition: 0.5s ease;
+}
+
+button:hover {
+    background-color: var(--back);
+    color: var(--cream);
+}
+
+#message {
+    display: block;
+    background-color: var(--sec-back);
+    max-width: 400px;
+    font-family: var(--head-font);
+    font-size: 18px;
+    font-weight: bold;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    margin: auto;
+}
